@@ -1,0 +1,151 @@
+
+/*Fundo da página*/ 
+html, body, .capa{
+	height: 100%;  
+	background: #F695F3;
+}
+
+/*Configuração para ocultar a barra de rolagem horizontal*/
+body{
+	overflow-x: hidden;
+}
+
+
+/*******************Barra de navegação*****************************/
+
+
+/*Formatação dos links do menu*/
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+/*Formatação ao passar o mouse nos links do menu*/
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #9bf0e1;
+	background: none;
+}
+
+/*Configuração da barra de navegação*/
+nav.navbar-transparente{
+	padding: 0px 0px 30px 0px;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+
+/*Configuração da Logo*/
+.navbar-brand img{
+	height: 80px;
+	width: 80px;
+	display: block;
+	background-size: contain;
+}
+
+/*Configuração dos links*/
+ul{
+	padding: 25px 0px 0px 0px;
+	font-size: 15px; 
+}
+
+.capa{
+	display: table;   /*Tranformou o texto da capa em tabela*/
+	width: 100%;  /*Largura total*/
+}
+
+/*Configuração da logo de capa*/
+.logo-capa img {
+	position:absolute;
+	height: 450px;
+	width: 450px;
+	top: 50%;
+	left: 50%;
+	margin-top: -170px;
+	margin-left: -230px;
+}
+
+#quem-sou{
+	background: white;
+	padding-top: 80px;
+	padding-bottom: 110px;
+}
+
+/********************************Portifolio*******************************/
+
+#portifolio{
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+/*Configuração para manter as fotos do mesmo tamanho*/
+#portifolio img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover; 
+
+}
+
+.fundo-foto{
+	background: white;
+	padding: 20px 0px 20px 0px;
+
+}
+	footer{
+		background: #000;
+		padding: 50px 0px 50px 0px;
+		position: relative;
+	}
+
+	.item-rede-social{
+		float: right;
+
+
+		}.item-rede-social:hover{
+			background: white;
+			border-radius: 50px;
+		}
+
+		/**************************Tipografia*******************************/
+		h1{
+			text-align: center;
+			font-weight: 900;
+			letter-spacing: -0.05em;
+			margin-bottom: 20px;
+			font-size: 40px;
+			text-transform: uppercase;
+			color: #7c25f8;
+			padding-bottom: 50px;
+		}
+
+		h4{
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 12px
+		}
+
+		@media screen and (max-width: 768px){
+
+			nav.navbar-transparente{
+				padding: 0px 0px 55px 0px;	
+			}
+
+			button{
+				margin-top: 50px;
+
+
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
